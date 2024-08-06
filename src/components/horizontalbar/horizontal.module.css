@@ -1,0 +1,40 @@
+.horizndiv {
+  width: 79vw;
+  height: 55px;
+  background-color: rgb(29, 28, 28);
+  display: flex;
+  align-items: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.hmainbar{
+  display: flex; align-items: center;
+  margin-left: 15px; flex: 1;
+}
+.searchbox {
+  padding: 7px;
+  background-color: rgb(30, 30, 30);
+  border: none;
+  border-radius: 8px;
+  margin-left: 10px;
+  color: white;
+}
+.searchbox::placeholder {
+  color: white;
+  padding: 20px;
+}
+.hrighticon{
+  display: flex; align-items: center; margin-right: 30px;
+  gap: 10px;
+}
+.sicon {
+  position: absolute; margin-left: 45px;
+}
+.bcircle{
+  height: 25px; width: 25px; background-color: rgb(131, 128, 128); padding: 5px;
+  border-radius: 100%;
+}
+.profilepic{
+  height: 30px; width: 30px;
+  border-radius: 100%;
+}

@@ -1,0 +1,86 @@
+export const info = [
+  {
+    icon: "LuBaggageClaim",
+    description: "Total Orders",
+    value: "75",
+    percent: "3",
+    direction: "up",
+    color: "#b2c410",
+  },
+  {
+    icon: "BsBagCheckFill",
+    description: "Total Delivered",
+    value: "70",
+    percent: "3",
+    direction: "down",
+    color: "#0ee82b",
+  },
+  {
+    icon: "BsBagXFill",
+    description: "Total Canceled",
+    value: "08",
+    percent: "3",
+    direction: "up",
+    color: "#e80707",
+  },
+  {
+    icon: "FaHandHoldingDollar",
+    description: "Total Revenue",
+    value: "$12k",
+    percent: "3",
+    direction: "down",
+    color: "#e807b4",
+  },
+];
+
+export const orders = [
+  {
+    customer: "ajit singh",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNatPJ6cB-XkyGkyVj6QiL3WmSYZv4gUvzUw&s",
+    ordernum: "123456",
+    amount: "360",
+    status: "Delivered",
+  },
+  {
+    customer: "ajit singh",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNatPJ6cB-XkyGkyVj6QiL3WmSYZv4gUvzUw&s",
+    ordernum: "123456",
+    amount: "360",
+    status: "Pending",
+  },
+  {
+    customer: "ajit singh",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNatPJ6cB-XkyGkyVj6QiL3WmSYZv4gUvzUw&s",
+    ordernum: "123456",
+    amount: "360",
+    status: "Delivered",
+  },
+  {
+    customer: "ajit singh",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNatPJ6cB-XkyGkyVj6QiL3WmSYZv4gUvzUw&s",
+    ordernum: "123456",
+    amount: "360",
+    status: "Canceled",
+  },
+  {
+    customer: "ajit singh",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNatPJ6cB-XkyGkyVj6QiL3WmSYZv4gUvzUw&s",
+    ordernum: "123456",
+    amount: "360",
+    status: "Delivered",
+  },
+  {
+    customer: "ajit singh",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNatPJ6cB-XkyGkyVj6QiL3WmSYZv4gUvzUw&s",
+    ordernum: "123456",
+    amount: "360",
+    status: "Delivered",
+  },
+  {
+    customer: "ajit singh",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNatPJ6cB-XkyGkyVj6QiL3WmSYZv4gUvzUw&s",
+    ordernum: "123456",
+    amount: "360",
+    status: "Delivered",
+  },
+];

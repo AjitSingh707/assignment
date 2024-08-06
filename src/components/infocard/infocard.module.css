@@ -1,0 +1,17 @@
+.infocard{
+    display: flex; align-items: center;justify-content: space-between;
+}
+.card{
+    height: 80px; width: 100px; background-color: rgb(29, 28, 28); border-radius: 10px; padding: 5px 10px;
+    display: flex; flex-direction: column; gap: 5px;
+}
+.squqre{
+    height: 30px; width: 30px; background-color: rgba(10, 10, 212, 0.486); padding: 5px; border-radius: 5px;
+}
+.infoval{
+    display: flex; align-items: center; justify-content: center;
+}
+.arrr{
+   display: flex; align-items: center; justify-content: center; 
+}
+

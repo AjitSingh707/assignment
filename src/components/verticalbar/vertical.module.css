@@ -1,0 +1,13 @@
+.verticaldiv {
+  width: 4vw;
+  height: 550px;
+  background-color: rgb(29, 28, 28);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-bottom-left-radius: 20px;
+}
+
+.vupper{
+  display: flex; flex-direction: column; align-items: center;  gap: 20px; flex: 1;
+}
