@@ -12,7 +12,8 @@
 }
 .innerdiv {
   width: 75vw;
-  height: 550px;
+  min-height: 550px;
+  height: max-content;
   background-color: black;
   border-bottom-right-radius: 20px;
   padding: 10px 20px;
@@ -30,3 +31,21 @@ display: flex; flex-direction: column; gap: 20px;
 width: 40%;
 }
 
+@media only screen and (max-width: 768px) {
+  .maindiv{
+    height: max-content;
+  }
+  .innerdiv{
+    width: 90vw;
+  }
+  .allcontent{
+    flex-direction: column;
+  }
+  .leftcontent{
+    width: 100%;
+  }
+  .rightcontent{
+    width: 100%;
+  }
+  
+}

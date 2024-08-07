@@ -30,6 +30,7 @@ const Horizontalbar = () => {
           className={classes.bcircle}
         />
         <img src={dp} alt="pic" className={classes.profilepic} />
+        
       </div>
     </div>
   );
